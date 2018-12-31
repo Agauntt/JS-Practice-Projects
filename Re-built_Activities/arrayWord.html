@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array Word</title>
+</head>
+<body>
+    <script>
+        var word = prompt("Insert word here");
+        var wordArray = [];
+        var wordPiece;
+
+        /*for(i = 0; i < word.length; i++){
+           wordPiece === word.charAt(2);
+           wordArray.push([wordPiece]);
+        }*/
+
+        wordArray = Array.from(word);
+        
+        console.log(wordArray);
+    </script>
+</body>
+</html>
